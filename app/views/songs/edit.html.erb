@@ -1,0 +1,6 @@
+<%= form_for(@song, url:{action:"update"}) do |t| %>
+  <%= t.text_field(:name) %>
+  <%= t.number_field(:genre_id) %>
+  <%= t.number_field(:artist_id) %>
+  <%= t.submit %>
+<% end %>
