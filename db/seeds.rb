@@ -10,4 +10,4 @@ Song.destroy_all
 Genre.destroy_all
 artists = Artist.create([{ name: 'sunny', bio: 'good man' }, { name: 'saqib', bio: 'very shy' }])
 genres = Genre.create([{ name: 'pop'}, { name: 'rock'}])
-songs = Song.create([{ name: 'pop', artist: artists.first, genre: genres.first}, { name: 'rock', artist: artists.last, genre: genres.last}])
+songs = Song.create([{ name: 'song 1', artist: artists.first, genre: genres.first}, { name: 'song 2', artist: artists.last, genre: genres.last}])
